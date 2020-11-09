@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+.imgProfile{
+    width: 90%;
+}
+
+.cardProfile{
+    font-family: 'Roboto Slab', serif;
+    border:3px solid black;
+}
+
+.cardProfileHeader{
+    background-color: rgb(29, 29, 29);
+    color:white;
+}
+
+.cardProfileBody{
+    background-color: rgba(39, 39, 39, 0.726);
+    color:white;
+}
+
+.cardLabel{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+
+.cardText{
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.newPassButton{
+    border:3px solid rgb(255, 255, 255);
+    background-color: transparent;
+    outline:none;
+    padding:5px;
+    transition: 0.3s;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.newPassButton:hover{
+    outline:none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 196, 0);
+    transition: 0.3s;
+}
+
+
+
+.newPassButton:active{
+    outline:none;
+}
+
+.newPassButton:focus{
+    outline:none;
+}
+
+.newPassButton:visited{
+    outline:none;
+}
+
+.adminTitle{
+    color:rgb(255, 217, 0);
+}

@@ -1,0 +1,23 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px 10px 50px;
+}
+
+input[type= 'radio'] {
+    display: none;
+}
+
+.enviar{
+
+   size: 50px;
+}
+
+.input {
+    width: 500px;
+}
+
+.button {
+    width: 150px;
+}

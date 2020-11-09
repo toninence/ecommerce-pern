@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 0;
+    background-color: black; 
+
+}
+
+.presentation{
+    display: flex;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.text_area{
+    margin-bottom: 35px;
+}
+
+.title{
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+.paragraph{
+    color:white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.team{}
+
+.team-title{
+    padding: 5px;
+    background-color: yellow;
+   color: black;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 8%;
+
+}
+.team-title h1{
+    position:relative;
+    left:25px
+}
+
+.team-mates{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    background-color: black;
+    padding: 25px;
+    
+}
+
+.member{
+    width:200px;
+  
+    padding: 10px;
+    margin-right: 4.5em;
+    margin-bottom: 2em;
+    
+
+}
+.graph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.net-icons{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.name{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.description{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.empty_space{
+   background-image: url('Logo-corto.svg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 75% 75%;
+   border: 3px solid yellow;
+   margin-left: 10px;
+   border-radius: 15%;
+    width: 3500px;
+}
+
+ */

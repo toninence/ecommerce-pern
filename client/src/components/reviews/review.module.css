@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dee1e3;
+    
+}
+
+/* lista de comentarios */
+
+.commentContainer {
+    margin: 15px 20px 5px 100px;
+    width:  100%;
+}
+
+.titulo {
+    font-size: 36px;
+    columns: #283035;
+    font-weight: 400;
+}
+
+.commentList {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.list {
+    margin-bottom: 15px;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.list:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+}
+/* avatar */
+
+.commentsAvatar {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Caja del comentario */
+
+.commentsBox {
+    width: 900px;
+    float: right;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 4px black;
+    border-radius: 14px 15px 15px 15px;
+    
+}
+.commentsBox:before {
+    border-width: 11px 13px 11px 0;
+    border-color: transparent rgba(0, 0, 0, 0.05);
+    left: -12px;
+
+}
+.commentsBox:after {
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    display: block;
+    border-width: 10px 12px 10px 0;
+    border-style: solid;
+    border-color: transparent black;
+    top: 6px;
+    left: -9px;
+
+}
+
+.commentsHead {
+    background: black;
+    padding: 2px 30px;
+    border-bottom: 2px solid yellow;
+    overflow: hidden;
+    -webkit-border-radius: 14px 15px 0 0;
+    -moz-border-radius: 14px 15px 0 0;
+    border-radius: 14px 15px 0 0;
+}
+
+.commentsIcons {
+    float: right;
+    margin-left: 14px;
+    position: relative;
+    color: yellow;
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease;
+    --o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.commentsIcons:hover {
+    color:white;
+}
+
+.author {
+    color: #283035;
+    font-size: 14px;
+    font-weight: 700;
+    float: left;
+    margin: 4px 25px 0 0;
+    }
+
+.date {
+    float: left;
+    color: #999;
+    font-size: 13px;
+    position: relative;
+    top: 3px;
+
+}
+
+.commentsContent {
+    width: 100%;
+    background: white;
+    padding: 5px 30px;
+    font-size: 13px;
+    color: #000000;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+    overflow-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+.about{
+    background-color: black;
+    height: 100vh;
+    
+}
+.about>*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.LinkHenry{
+    color:rgb(255, 238, 0);
+    font-weight: bold;
+}
+.LinkHenry:hover{
+    color:rgb(255, 166, 0);
+    font-weight: bold;
+}
+
+.cardsAbout{
+    padding:0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introAbout{
+    text-align: center;
+    color:White;
+}
+.introAbout h1{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.descAbout{
+    width: 70%;
+    margin: auto;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.cardAbout{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.116);
+    height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cardImg{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin:10px auto;
+    object-fit: cover;
+    background-color:yellow
+}
+
+.cardTitle{
+    color:white;
+    font-weight: bold;
+}
+
+.linkedinButton>*{
+    width: 40px;
+    height: 40px;
+    color:yellow;
+    transition:0.3s
+
+}
+
+
+.linkedinButton>*:hover{
+    width: 40px;
+    height: 40px;
+    color:rgb(48, 153, 252);
+    transition:0.3s
+}
+
+.bodyCard{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardText{
+    color:white;
+    margin:0;
+}
+
+.h1NE{
+    font-weight: bold;
+    color:white;
+    font-size: 38px;
+
+    margin-bottom: 25px;
+}
+
+.ImagenTecno{
+    width: 70px;
+    margin:0px 10px;
+}
+
+.node{
+    width: 100px;
+    margin:0px -10px;
+}
+
+.html{
+    width: 100px;
+    margin:0px -10px;
+}

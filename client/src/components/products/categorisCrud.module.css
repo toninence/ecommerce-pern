@@ -1,0 +1,8 @@
+.categoriesTable{
+    width: 100%;
+}
+
+.inputCat{
+    display: flex;
+    flex-direction: row;
+}

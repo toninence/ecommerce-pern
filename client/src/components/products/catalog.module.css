@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.categoria{
+    width: '250px';
+    height: '100vh';
+}
+
+.category{
+    cursor: pointer;
+}
+
+.allProducts{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navigationPages{
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.397);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position: absolute;
+    bottom: 10px;
+    left:55%;
+}
+
+.currentPage{
+    background: rgb(255, 208, 0);
+    border-radius: 0.8em;
+    margin:0px 10px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    text-align: center;
+    width: 1.6em; 
+}
+
+.buttonPagination{
+    font-weight: bold;
+    background-color: rgb(255, 208, 0);
+    outline: none;
+    color:white;
+    display: flex;
+    padding:10px;
+    border:none;
+}
+
+
+.buttonPagination:hover{
+    background-color: rgb(250, 222, 100);
+}
+
+.buttonPagination:focus{
+    box-shadow: none;
+    outline: none;
+    border:none;
+    background-color:rgb(255,208,0) !important
+
+}
+
+.buttonPagination:visited{
+    background-color:rgb(255,208,0) !important
+}
+.buttonPagination:active{
+    background-color:rgb(255,208,0) !important;
+}
+
+.activo{
+    color:black;
+    background-color:rgb(255, 238, 0);
+}
+
+.activo:hover{
+    color:black;
+    background-color: rgb(255,220,0);
+}

@@ -1,0 +1,237 @@
+
+body{
+    background-color: #f2f2f2;
+    margin-bottom:0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar{
+    width:100%;
+    height: 80px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    /* font-family: 'Poppins', sans-serif; */
+    padding: 0px 80px;
+    padding-top:20px
+}
+.navbarAdmin{
+    width:100%;
+    height: 80px;
+    background-color:#ffdf29;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+    padding: 0px 80px;
+    padding-top:20px
+}
+
+.brand{
+    width: 300px;
+    height: fit-content;
+}
+
+.brandAdmin{
+    width: 300px;
+}
+
+.searchBar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.searchBarAdmin{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.buttonNavbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonNavbarAdmin{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+form input{
+    background-color:white;
+    width:400px;
+    margin-right:10px;
+    border-radius:5px;
+    border:0px;
+    color:black;
+    height: 37px;
+}
+form input:focus{
+    outline:none;
+    border:3px solid #f0f009;
+    transition: 0.2s;
+}
+form input::placeholder{
+    color:black;
+    transition: 0.2s;
+}
+
+.navSubmit{
+    background-color: #FFFF01;
+    color:black;
+    outline:none;
+    border:none;
+}
+.navSubmit:hover{
+    background-color: #f0f009;
+}
+
+.navSubmitAdmin{
+    background-color: black;
+    color:#FFFF01;
+    outline:none;
+    border:none;
+}
+.navSubmitAdmin:hover{
+    background-color: #f0f009;
+}
+
+
+.navbarCart{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.navbarCartAdmin{
+    display: flex;
+    align-items: center;
+}
+
+.navbutton{
+    color:white;
+    transition:0.3s;
+    padding:  15px;
+    border-radius:5px;
+}
+.navbuttonAdmin{
+    color:black;
+    transition:0.3s;
+    padding:  15px;
+    border-radius:5px;
+}
+
+.navbutton:hover{
+    transition:0.3s;
+    color:white;
+    background-color: rgb(34, 33, 33);
+}
+
+.navbuttonAdmin:hover{
+    transition:0.3s;
+    color:black;
+    background-color: rgb(255, 230, 0);
+}
+
+
+
+
+
+.navbuttonCart{
+    color:white;
+    padding: 0 -10px 0 5px !important
+}
+
+.navbuttonCartAdmin{
+    color:black;
+    padding:10px;
+}
+.navbuttonCart:hover{
+    color:rgb(124, 124, 124);
+}
+.navbuttonCartAdmin:hover{
+    color:rgb(124, 124, 124);
+}
+
+
+
+.navbutton-login{
+    color:white;
+    transition:0.3s;
+    border-radius:5px;
+    padding:15px;
+}
+
+.navbutton-login:hover{
+    transition:0.3s;
+    color:white;
+    background-color: rgb(34, 33, 33);
+}
+
+.navbarLink{
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.navbarLinkAdmin{
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+@keyframes numCart{
+    from {transform: scale(0);}
+    to {transform: scale(1)}
+}
+
+
+.numeroCarrito{
+    position: absolute;
+    left: 50%;
+    background: rgb(255, 230, 0);
+    width: 20px;
+    border-radius: 20px;
+    text-align: center;
+    right: 50%;
+    color: black;
+
+    animation-name:numCart;
+    animation-duration: 0.5s;
+}
+
+
+
+.dropdownWhite, .dropdownWhite>*{
+    color:white;
+}
+
+.dropdownWhite>*:hover{
+    color:white;
+    padding:0;
+
+}
+
+.dropdownWhiteAdmin, .dropdownWhiteAdmin>*{
+    color:black;
+}
+
+.dropdownWhiteAdmin>*:hover{
+    color:black;
+}

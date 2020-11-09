@@ -1,0 +1,41 @@
+.description{
+    font-size: 11px;
+}
+.masMenos{
+    width: 30%;
+    margin-right: 5px;
+    color: rgb(255, 217, 0) !important;
+    background-color: rgba(3, 3, 3, 0.911) !important;
+    font-weight: bold !important;
+    box-shadow: none;
+    border:none;
+    outline: none;
+}
+
+.masMenos:focus{
+    background-color: rgba(3,3,3,1.0) !important;
+    color:rgb(255, 217, 0) !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.masMenos:active{
+    color:rgb(255, 217, 0) !important;
+    background-color: rgba(3,3,3,1.0) !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.masMenos:visited{
+    color:rgb(255, 217, 0) !important;
+    background-color: rgba(3,3,3,1.0) !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.masMenos:hover{
+    background-color: rgba(3,3,3,1.0);
+}
+.price{
+    font-size:20px;
+}

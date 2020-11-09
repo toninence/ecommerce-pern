@@ -1,0 +1,121 @@
+a:hover{
+    text-decoration: none !important;
+}
+
+
+.linkProductCard{
+    width: fit-content;
+    height: fit-content;
+}
+
+.cardStyles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carouselCard{
+    box-shadow: none;
+    max-height: 50%;
+}
+
+.productTitle{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+.hr{
+    margin:1px;
+}
+
+.card>*{
+    border:none;
+}
+
+
+.productCard{
+    border:none;
+    transition: all 0.5s;
+    color:black;
+    height: fit-content;
+    text-align:center;
+    height: 60%;
+}
+
+.productCard:hover{
+    box-shadow: 1px 4px 19px 0px rgba(0,0,0,0.99);
+}
+
+
+
+.estrella{
+    color:#dbbb06;
+    font-size: 20px;
+}
+
+.noDisponible{
+    filter: brightness(0.6);
+}
+
+.noDisponible:after{
+    content: "NO DISPONIBLE";
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0,0,0,0.5 );
+    z-index: 2000;
+    font-size: bold;
+}
+
+.cardImg{
+    background-color: transparent;
+}
+
+.card{
+    background-color: black;
+    width: 250px;
+    max-height: 460px;
+    color: white;
+    border-radius: 2%;
+    border: black solid;
+}
+
+.btnComprar{
+    background-color: rgb(255, 232, 24);
+    color:black;
+    margin-bottom: 10px;
+    border:none;
+    width:100%;
+}
+
+.btnComprar:hover{
+    box-shadow: none !important;
+    background-color:  rgb(255, 213, 24);
+    color:black
+}
+
+.btnComprar:focus{
+    box-shadow: none !important;
+    background-color:  rgb(255, 213, 24);
+    color:black
+}
+
+.btnComprar:visited{
+    box-shadow: none !important;
+    background-color:  rgb(255, 213, 24);
+    color:black
+}
+
+.btnComprar:active{
+    background-color:  rgb(255, 213, 24) !important;
+    box-shadow: none !important;
+    color:black
+}

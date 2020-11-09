@@ -1,0 +1,6 @@
+GET https://api.github.com/user HTTP/1.1
+content-type: application/vnd.github.v3+json
+
+{
+    "Authorization": "token 83934ce2df4401b77b1f866cc82405d0c98f5211" ,
+}

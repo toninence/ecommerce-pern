@@ -1,0 +1,170 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top:50px;
+}
+*>h1{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+
+        font-weight: bold;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;    
+}
+
+h1::after{
+    background-color: yellow;
+    box-sizing: border-box;
+
+    content: "";
+    width: 45%;
+    position: relative;
+    bottom: 15px;
+    transform: translate(-50%,0);
+    left:50%;
+    z-index: -110;
+    display: inline-block;
+    height: 12px;
+}
+
+
+.tablaContenedora{
+    width: 50%;
+    margin:auto;
+}
+
+.rowWish{
+    background-color: white;
+    border-radius: 5px;
+     padding:15px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+}
+
+.imgNameSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageWish{
+  max-height: 150px;
+  padding-right:15px;
+}
+
+.priceNameWish{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.priceNameWish{
+    font-weight: bold;
+}
+.price{
+    font-size: 16px;
+}
+
+.priceNameWish{
+    font-size: 20px;
+}
+.priceNameWish>*{
+    color:black;
+    font-weight: bold;
+}
+.priceNameWish>:nth-child(1):hover{
+    color:rgb(255, 196, 0);
+    font-weight: bold;
+}
+.buttonSection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.buttonSection>*:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.918);
+    color:rgb(255, 230, 0);
+}
+.buttonSection>*:nth-child(1):hover{
+    background-color: rgb(255, 208, 0);
+    color:black;
+}
+
+
+.buttonSection>*:nth-child(2){
+    background-color: black;
+    width: fit-content ;
+    border-radius: 50%;
+    margin:10px auto;
+    color:rgb(233, 86, 86);
+    padding:22px;
+}
+.buttonSection>*:nth-child(2):hover{
+    background-color: rgb(230, 56, 56);
+
+    color:white;
+}
+
+.buttonSection>*:nth-child(1):active{
+    border:none;
+    outline: none;
+}
+.buttonSection>*:nth-child(1):focus{
+    border:none;
+    outline: none;
+}
+
+.buttonSection>*:nth-child(2):active{
+    border:none;
+    outline: none;
+}
+.buttonSection>*:nth-child(2):focus{
+    border:none;
+    outline: none;
+}
+
+.buttonCart>*{
+    font-size: 15px;
+}
+
+.buttonDelete>*{
+    font-size: 28px;
+}
+
+.description{
+    width: 65%;
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+}
+
+
+
+.backCatalogo{
+    padding:20px;
+    position: relative;
+    top:100px;
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    background-color: rgb(255, 230, 0);
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.backCatalogo:hover{
+    transition: 0.4s;
+
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 196, 0);
+}

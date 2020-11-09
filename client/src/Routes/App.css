@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: gray;
+}
+
+.carousel{
+  margin: 10px auto;
+  width: 90%;
+  background-color: white;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 14px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 14px 1px rgba(0,0,0,0.75);
+border-radius:5px;
+}
+
+.carousel-item{
+  height: 480px;
+}
+.carousel .carousel-control-next:hover, .carousel .carousel-control-prev:hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.carousel .carousel-control-next, .carousel .carousel-control-prev{
+  width:10%;
+  background-color:rgba(0,0,0,0.3)
+}
+
+.carousel-caption{
+  color: white;
+  background: rgba(0,0,0,0.5);
+  bottom:15px;
+}
+
+.sliderImage{
+  margin: 0 auto;
+  max-width: 80%;
+  object-fit: contain;
+  height: 80%;
+}
+
+.carousel{
+  height: 480px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}

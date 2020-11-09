@@ -1,0 +1,36 @@
+.dropdown-toggle{
+    width: fit-content;
+}
+.dropdown-toggle::after{
+    content:none;
+}
+
+.dropdown-menu{
+    background-color:rgba(22, 22, 22, 0.685);
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    top:50px;
+
+}
+
+.nav-item{
+    width: fit-content;
+}
+
+.dropdown-item >*{
+    color:white;
+}
+
+.dropdown-item:hover > *{
+    color:black;
+}
+
+.dropdown-item:hover{
+    color:black;
+
+}
+
+
+
+.nav-link{
+    padding:0;
+}
